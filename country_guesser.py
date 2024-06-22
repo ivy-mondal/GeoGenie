@@ -43,10 +43,11 @@ def country_guess(image_path):
     else:
         return "United States"
 
-
+"""
 print(country_guess("pictures\\sample 01.jpg"))
 print(country_guess("pictures\\sample 02.jpg"))
 print(country_guess("pictures\\sample 03.jpg"))
 print(country_guess("pictures\\sample 04.jpg"))
 print(country_guess("pictures\\sample 05.jpg"))
 print(country_guess("pictures\\sample 06.jpg"))
+"""
