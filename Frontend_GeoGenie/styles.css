@@ -1,0 +1,131 @@
+body {
+  font-family: "Lucida Handwriting" , cursive;
+  background-color: #000000;
+}
+
+ header {
+  font-family: "Papyrus" , fantasy;
+  padding: 0px;
+  text-align: left;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 150px;
+}
+
+header img {
+  width: 100%; /* make the image take up the full width of the header */
+  height: 100%; /* make the image take up the full height of the header */
+  object-fit: cover; /* make the image cover the entire header area */
+  border-radius: 100;
+}
+
+.instructions {
+  position: absolute;
+  top: 250px; /* adjust this value to position the instructions below the header image */
+  left: 0;
+  width: 300px;
+  color: #FFFFFF;
+  background-color: transparent; /* add a background color to distinguish the instructions area */
+  padding: 20px;
+  font-family: "Lucida Handwriting", cursive; /* inherit the font family from the body */
+
+}
+.world-map {
+  position: absolute;
+  top: 0; /* adjust this value to position the world map below the header */
+  left: 30%;
+  text-align: center;
+}
+
+.world-map img {
+  width: 400px; /* adjust this value to set the width of the world map image */
+  height: 400px; /* adjust this value to set the height of the world map image */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 0 auto; /* add this to center the image horizontally */
+}
+.world-map textarea {
+  width: 300px; /* adjust this value to set the width of the textarea */
+  height: 30px;
+  top: 500px;
+  text-align: center;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 14px;
+  margin: 0 auto; /* add this to center the textarea horizontally */
+  display: block; /* add this to make the textarea a block element */
+}
+.world-map label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FF69B4;
+  font-family: Arial, sans-serif; /* change the font to Arial */
+  font-style: italic;
+  font-size: 18px;/* make the text italic */
+  font-weight: bold;
+
+}
+
+
+.scores {
+  display: inline-block;
+  vertical-align: top; /* adjust the vertical alignment */
+  margin-left: 230px; /* add some space between the header image and the score */
+  text-align: right;
+  color: #B0E0E6;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: transparent; /* adjust this value to set the background color */
+  padding: 10px; /* add some padding to the container */
+  border-radius: 10px;
+}
+
+.your-score {
+  color: #0000CD;
+}
+
+.ai-score {
+  color: #DC143C;
+}
+
+.scores p {
+  margin: 0; /* remove default paragraph margin */
+}
+
+.scores span {
+  font-weight: normal; /* reset font weight for score values */
+}
+
+.image-container {
+  margin-top: 0px;
+  float: right;
+  text-align: right;
+}
+
+.image-container img {
+  width: 500px; /* adjust this value to set the width of the image */
+  height: 300px; /* adjust this value to set the height of the image */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  float: right;
+}
+.image-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #FF69B4;
+  font-family: Arial, sans-serif; /* change the font to Arial */
+  font-style: italic;
+  font-size: 18px;/* make the text italic */
+  font-weight: bold;
+
+}
+
+
